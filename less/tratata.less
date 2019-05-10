@@ -35,6 +35,7 @@ header.info {
 .info-wrap {	
 	background: url(../img/info/bg.png) no-repeat;
 	background-position: 50% 300px;
+	position: relative;
 	.container {
 		padding-top: 55px;
 	}
@@ -60,10 +61,11 @@ header.info {
 	}
 }
 .sidebar-info {
+	margin-right: auto;
+	margin-bottom: 80px;
 	padding: 20px 0;
 	z-index: 10;
 	overflow: hidden;
-	position: absolute;
 	width: 284px;
 	box-shadow: 0 15px 81px rgba(1, 1, 1, 0.1);
 	background-color: #ffffff;
@@ -94,12 +96,11 @@ header.info {
 }
 .fixed-sidebar {
 	top: 60px;
-	position: fixed;
+	position: sticky;
 }
 .min-container {
 	max-width: 100%;
 	width: 783px;
-	margin-left: auto;
 }
 #about-info {
 	.min-container {
@@ -848,7 +849,16 @@ header.info {
 		}
 	}
 }
-@media (max-width:1200px) {
+@media (min-width:1200px) {
+	.info-wrap {	
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+		}
+	}
+}
+@media (max-width:1199.9px) {
 	.sidebar-info {
 		display: none;
 	}
