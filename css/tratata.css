@@ -409,7 +409,7 @@ header.info hr {
 #steps-info .step-item {
   margin-top: 30px;
   padding: 22px 14px 20px 19px;
-  width: 377px;
+  width: 48.1%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -932,8 +932,9 @@ header.info hr {
   content: url(../img/info/check.png);
   margin-right: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1023px) {
   .info-wrap .container {
+    min-width: 100% !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -944,7 +945,7 @@ header.info hr {
             justify-content: flex-end;
   }
 }
-@media (max-width: 1199.9px) {
+@media (max-width: 1022.9px) {
   .sidebar-info {
     display: none;
   }
@@ -971,6 +972,9 @@ header.info hr {
   }
   #sertificate-info .text-wrap .controls {
     top: 50px;
+  }
+  #steps-info .step-item {
+    width: 100%;
   }
 }
 @media (max-width: 540px) {
@@ -999,5 +1003,20 @@ header.info hr {
   }
   #memo-info .aeroports-list p {
     width: 43% !important;
+  }
+}
+@media screen and (min-width: 1022.9px) and (max-width: 1110px) {
+  .min-container {
+    float: right;
+    width: 100% !important;
+  }
+  .info-wrap section {
+    width: 70% !important;
+  }
+  #advantages-info .advantages-info__item {
+    padding: 0;
+  }
+  #advantages-info .row {
+    margin: 0;
   }
 }
