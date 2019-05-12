@@ -39,6 +39,10 @@ header.info {
 	.container {
 		padding-top: 55px;
 	}
+	.min-container {
+		max-width: 100%;
+		width: 783px;
+	}
 	.main-text-window {
 		z-index: 1;
 		position: relative;
@@ -61,6 +65,7 @@ header.info {
 	}
 }
 .sidebar-info {
+	top: 60px;
 	margin-right: auto;
 	margin-bottom: 80px;
 	padding: 20px 0;
@@ -93,14 +98,6 @@ header.info {
 			color: #fff;
 		}
 	}
-}
-.fixed-sidebar {
-	top: 60px;
-	position: sticky;
-}
-.min-container {
-	max-width: 100%;
-	width: 783px;
 }
 #about-info {
 	.min-container {
@@ -849,10 +846,30 @@ header.info {
 		}
 	}
 }
+@media screen and (min-width:1022.9px) and (max-width:1110px) {
+	.info-wrap .min-container {
+	}
+	.info-wrap section {
+		width: 70% !important;
+	}
+	#advantages-info .advantages-info__item {
+		padding: 0;
+	}
+	#advantages-info .row {
+		margin: 0;
+	}
+}
+@media (min-width: 1200px) {
+	.info-wrap {	
+		.container {
+			min-width: auto !important;
+		}
+	}
+}
 @media (min-width:1023px) {
 	.info-wrap {	
 		.container {
-			min-width: 100% !important;
+			min-width: 100%;
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: flex-end;
@@ -891,7 +908,7 @@ header.info {
 		width: 100%;
 	}
 }
-@media (max-width:540px) {
+@media (max-width:576px) {
 	header.info {
 		.first {
 			font-size: 35px;
@@ -923,21 +940,5 @@ header.info {
 		p {
 			width: 43% !important;
 		}
-	}
-}
-@media screen and (min-width:1022.9px) and (max-width:1110px) {
-	.min-container {
-		float: right;
-		width: 100% !important;
-	}
-	.info-wrap section {
-
-		width: 70% !important;
-	}
-	#advantages-info .advantages-info__item {
-		padding: 0;
-	}
-	#advantages-info .row {
-		margin: 0;
 	}
 }

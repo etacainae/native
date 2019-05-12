@@ -1,0 +1,1024 @@
+.bread.registration {
+  margin: 0;
+  padding-top: 110px;
+}
+.registration-wrap section {
+  max-width: 100%;
+}
+.registration-wrap .container {
+  margin-bottom: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sidebar-registration {
+  top: 60px;
+  overflow: hidden;
+  width: 300px;
+  height: 496px;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0 15px 81px rgba(1, 1, 1, 0.1);
+          box-shadow: 0 15px 81px rgba(1, 1, 1, 0.1);
+}
+.sidebar-registration .header {
+  text-align: center;
+  width: 100%;
+  padding: 14px 0;
+  background-color: #fd9704;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+}
+.sidebar-registration .content {
+  margin-top: 30px;
+  height: auto;
+  line-height: 18px;
+  padding: 0px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+.sidebar-registration .price {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sidebar-registration .price .comment {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.sidebar-registration .price .sum {
+  line-height: 32px;
+  color: #145ce6;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.34px;
+}
+.sidebar-registration .btn {
+  margin-top: 22px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: 0 19px 40px rgba(20, 92, 230, 0.4);
+          box-shadow: 0 19px 40px rgba(20, 92, 230, 0.4);
+  border-radius: 25px;
+  background-color: #145ce6;
+  background-image: url(../img/hotel-registration/hotelBtnBg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  line-height: 50px;
+  color: #ffffff !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
+.sidebar-registration .counter {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sidebar-registration .counter .time {
+  width: 120px;
+}
+.sidebar-registration .counter .time__timer {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #3e3e3e;
+  font-size: 22px;
+  font-weight: 700;
+  /* Text style for "05" */
+  letter-spacing: 3.12px;
+}
+.sidebar-registration .counter .time__timer span {
+  color: #b8b8b8;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 4.45px;
+}
+.sidebar-registration .counter .time__comment {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #c4c4c4;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.sidebar-registration .counter .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fd9704;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+}
+.sidebar-registration .counter .comment:before {
+  content: url(../img/hotel-registration/fireOrange.png);
+  margin-right: 20px;
+}
+.sidebar-registration .services {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+.sidebar-registration .services li {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.sidebar-registration .services li:before {
+  content: url(../img/info/check.png);
+  margin-right: 18px;
+}
+.registration-wrap .min-container {
+  width: 770px;
+  max-width: 100%;
+}
+.hotel-registration .min-container > .row > .title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.hotel-registration .min-container > .row > .title .text {
+  color: #3e3e3e;
+}
+.hotel-registration .min-container > .row > .title .text-spec {
+  color: #fd9704;
+}
+.hotel-registration .min-container .tour-number {
+  color: #145ce6;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+}
+.hotel-registration .min-container .stars {
+  font-size: 16px;
+  color: #fc9604;
+}
+.hotel-registration .min-container .city {
+  padding-left: 30px;
+  color: #b8b8b8;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.hotel-registration .min-container .hotel-block {
+  margin-top: 30px;
+}
+.hotel-registration .min-container .hotel-block .hotel-img {
+  height: 100%;
+  padding-right: 40px;
+  overflow: hidden;
+}
+.hotel-registration .min-container .hotel-block .hotel-img img {
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info:not(:last-child) {
+  margin-bottom: 30px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info:nth-child(2) > div:last-child {
+  margin-right: 30px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .icon {
+  margin-right: 15px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .icon img {
+  margin-top: -10px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .icon img.man-blue {
+  margin-top: 10px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .title.blue {
+  color: #145ce6;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .title.orange {
+  color: #fd9704;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .text {
+  font-size: 16px;
+  color: #3e3e3e;
+  font-weight: 500;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .text .days {
+  color: #145ce6;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .block-info .info-text .text .sum-peoples {
+  color: #145ce6;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #0b3ba7;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 45px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .price_usd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #fd9704;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 45px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  font-size: 18px;
+  color: #0b3ba7;
+  font-weight: 500;
+  margin-right: 35px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .order {
+  line-height: 1;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 65px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .order a {
+  color: #fff;
+  background-image: url(../img/order.png);
+  background-repeat: no-repeat;
+  background-position: 5px -5px;
+  font-size: 11.68px;
+  font-weight: 700;
+  -webkit-box-shadow: 0 19px 40px 0 rgba(253, 151, 4, 0.4);
+  box-shadow: 0 19px 40px 0 rgba(253, 151, 4, 0.4);
+  text-transform: uppercase;
+  background-color: #fd9704;
+  padding: 17.5px 52px;
+  letter-spacing: 1px;
+  border-radius: 25px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .call-me {
+  line-height: 1;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 33px;
+}
+.hotel-registration .min-container .hotel-block .hotel-info .hotel-right .call-me a {
+  background-color: #0b3ba7;
+  color: #fff;
+  font-size: 11.68px;
+  font-weight: 700;
+  padding: 19.5px 37.33px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 19px 40px 0 rgba(11, 59, 167, 0.2);
+  box-shadow: 0 19px 40px 0 rgba(11, 59, 167, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hotel-registration .min-container .hotel-block .photos .img-thumb-wrap {
+  height: auto;
+  width: 160px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.hotel-registration .min-container .hotel-block .photos {
+  margin-top: 46px;
+}
+.hotel-registration .min-container .hotel-block .photos img {
+  height: 105px;
+  width: 105px;
+  border-top-left-radius: 20px;
+}
+.form-registration {
+  margin-top: -66px;
+}
+.form-registration .title {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.form-registration .tourist-data {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.form-registration .tourist-data .wrap-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.form-registration .tourist-data input[type=email],
+.form-registration .tourist-data input[type=text] {
+  margin-top: 24px;
+  border-width: 1px;
+  border-color: #c4c4c4;
+  border-style: solid;
+  width: 228px;
+  height: 40px;
+  line-height: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 20px;
+  color: #3e3e3e;
+  position: relative;
+  z-index: 9;
+}
+.form-registration .tourist-data input[type=submit] {
+  background-image: url(../img/send.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-color: #fd9704;
+  -webkit-box-shadow: 0 19px 40px 0 rgba(253, 151, 4, 0.4);
+  box-shadow: 0 19px 40px 0 rgba(253, 151, 4, 0.4);
+  border: none;
+  border-radius: 25px;
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 11.86px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.form-registration .pasport-data {
+  padding-top: 50px;
+}
+.form-registration .pasport-data .title:after {
+  content: url(../img/hotel-registration/question.png);
+  margin-left: 10px;
+  display: inline-block;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.form-registration .pasport-data__choise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-registration .pasport-data__choise label {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+  cursor: pointer;
+}
+.form-registration .pasport-data__choise label input[type="radio"] {
+  margin-right: 16px;
+  display: inline-block;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  border: none;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #b4caf5;
+  border-radius: 50%;
+}
+.form-registration .pasport-data__choise label input[type="radio"]:checked:after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background-color: #145ce6;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: translate(55%, 60%);
+          transform: translate(55%, 60%);
+}
+.form-registration .pasport-data__file {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form-registration .pasport-data__file input[type="file"] {
+  display: none;
+}
+.form-registration .pasport-data__file .img-wrap {
+  width: 92px;
+  height: 92px;
+  border-radius: 18px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-registration .pasport-data__file .text-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+}
+.form-registration .pasport-data__file .text-wrap .file-btn {
+  cursor: pointer;
+  color: #0b3ba7;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.form-registration .pasport-data__file .text-wrap .file-btn:before {
+  content: url(../img/hotel-registration/skrepka.png);
+  display: inline-block;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  margin-right: 20px;
+}
+.form-registration .pasport-data__file .text-wrap .comment {
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.05px;
+}
+.form-registration .pasport-data__confirmation {
+  margin-top: 18px;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.form-registration .pasport-data__confirmation:before {
+  content: url(../img/info/check.png);
+  margin-right: 20px;
+  display: inline-block;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.form-registration .pasport-data__btn {
+  margin-top: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-registration .pasport-data__btn .btn {
+  display: block;
+  text-align: center;
+  min-width: 200px;
+  height: 50px;
+  -webkit-box-shadow: 0 19px 40px rgba(253, 151, 4, 0.2);
+          box-shadow: 0 19px 40px rgba(253, 151, 4, 0.2);
+  background-color: #fd9704;
+  border-radius: 25px;
+  background-image: url(../img/hotel-registration/hotelBtnBg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 50px;
+  color: #ffffff !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
+.form-registration .pasport-data__btn .comment {
+  max-width: 494px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.form-registration .pasport-data__btn .comment:before {
+  content: url(../img/info/warning.png);
+  margin-right: 20px;
+}
+.form-registration .air-flight {
+  padding-top: 80px;
+}
+.form-registration .air-flight .title:before {
+  content: url(../img/planeb.png);
+  margin-right: 14px;
+  display: inline-block;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.form-registration .air-flight__item {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-registration .air-flight__item .comment {
+  color: #3e3e3e;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+}
+.form-registration .air-flight__item .comment:before {
+  content: url(../img/plane.png);
+  margin-right: 20px;
+  display: inline-block;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.form-registration .air-flight__item .flight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+.form-registration .air-flight__item .flight-title {
+  overflow: hidden;
+  padding: 0 20px;
+  width: 557px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  line-height: 40px;
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+.form-registration .air-flight__item .flight .arrow {
+  margin-left: 26px;
+  color: #0b3ba7;
+}
+.form-registration .transfer-insurance {
+  padding-top: 88px;
+}
+.form-registration .transfer-insurance .title:before {
+  content: url(../img/securityb.png);
+  margin-right: 14px;
+  display: inline-block;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+.form-registration .transfer-insurance__item {
+  margin-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3e3e3e;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+}
+.form-registration .transfer-insurance__item p {
+  margin: 0;
+}
+.form-registration .transfer-insurance__item span {
+  color: #145ce6;
+  font-weight: 700;
+  letter-spacing: 1.23px;
+}
+.form-registration .transfer-insurance .transfer:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin-right: 18px;
+  display: block;
+  background: url(../img/planeb.png) no-repeat;
+  background-size: contain;
+}
+.form-registration .transfer-insurance .insurance:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin-right: 18px;
+  display: block;
+  background: url(../img/securityb.png) no-repeat;
+  background-size: contain;
+}
+.form-registration .payment-methods {
+  padding-top: 88px;
+}
+.form-registration .payment-methods .title:before {
+  content: url(../img/hotel-registration/money.png);
+  margin-right: 14px;
+  display: inline-block;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+.form-registration .payment-methods__choise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-registration .payment-methods__choise label {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+  cursor: pointer;
+}
+.form-registration .payment-methods__choise label input[type="radio"] {
+  margin-right: 16px;
+  display: inline-block;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  border: none;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #b4caf5;
+  border-radius: 50%;
+}
+.form-registration .payment-methods__choise label input[type="radio"]:checked:after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background-color: #145ce6;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: translate(55%, 60%);
+          transform: translate(55%, 60%);
+}
+.form-registration .payment-methods__choise .best {
+  margin-left: 12px;
+  margin-top: -2px;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 14px;
+  background-color: rgba(253, 151, 4, 0.3);
+  color: #fd9704;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+}
+.form-registration .payment-methods .text-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-registration .payment-methods .text-wrap__item {
+  margin-top: 30px;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+}
+.form-registration .payment-methods .text-wrap__item:nth-child(1) {
+  margin-right: 20px;
+}
+.form-registration .payment-methods .logo-wrap {
+  margin-top: 20px;
+}
+.form-registration .payment-methods .logo-wrap img {
+  margin-right: 20px;
+}
+.reviews-registration {
+  margin-bottom: 0px;
+}
+.contacts-help-registration .container {
+  padding-top: 50px;
+}
+@media screen and (min-width: 1022.9px) and (max-width: 1121px) {
+  .registration-wrap section {
+    width: 69% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .registration-wrap .container {
+    min-width: auto !important;
+  }
+}
+@media (max-width: 1121px) {
+  .form-registration .air-flight__item .comment {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .form-registration .air-flight__item .flight {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1023px) {
+  .registration-wrap .container {
+    min-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media (max-width: 1022.9px) {
+  .registration-wrap .sidebar-registration {
+    display: none;
+  }
+  .min-container {
+    margin: 0 auto !important;
+  }
+  .form-registration {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .form-registration .pasport-data__choise {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .form-registration .payment-methods__choise {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 460px) {
+  .form-registration .pasport-data__btn {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .form-registration .pasport-data__btn .comment {
+    margin-top: 18px;
+  }
+  .form-registration .payment-methods .text-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 991.98px) {
+  .hotel-registration .min-container .hotel-block {
+    height: auto;
+  }
+  .hotel-registration .min-container .hotel-block .hotel-info {
+    margin-top: 30px;
+  }
+  .hotel-registration .min-container .hotel-block .hotel-img {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .hotel-registration .min-container .hotel-block .hotel-info .block-info:not(:last-child) {
+    margin-bottom: 0;
+  }
+  body .hotel-registration .min-container > .row > .title {
+    font-size: 15px;
+    width: 100%;
+  }
+  body .extended-info .tabs #tab-2 .steps .step .info .text {
+    font-size: 14px;
+  }
+  body .extended-info .tabs #tab-1 .description {
+    font-size: 14px;
+  }
+  body .hotel-registration .min-container .country {
+    font-size: 14px;
+  }
+  .hotel-registration .min-container > .row > .title {
+    font-size: 15px;
+  }
+  .hotel-registration .min-container .hotel-block .hotel-info .hotel-right .call-me,
+  .hotel-registration .min-container .hotel-block .hotel-info .hotel-right .count,
+  .hotel-registration .min-container .hotel-block .hotel-info .hotel-right .order,
+  .hotel-registration .min-container .hotel-block .hotel-info .hotel-right .price,
+  .hotel-registration .min-container .hotel-block .hotel-info .hotel-right .price_usd {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+  }
+  .hotel-registration .min-container .hotel-block .photos img:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .hotel-registration .min-container > .row > .title {
+    white-space: normal;
+    font-size: 9px;
+  }
+  .hotel-registration .min-container .country {
+    font-size: 9px;
+  }
+}
+@media (max-width: 460px) {
+  .hotel-registration .min-container .hotel-block .photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .hotel-registration .min-container .hotel-block .photos .row {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /**width: 240px**/
+  }
+}
+@media (max-width: 330px) {
+  .hotel-registration .min-container .hotel-block .hotel-info .block-info:nth-child(2) > div:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 400px) {
+  .hotel-registration .min-container .hotel-block .photos .row {
+    width: 100%;
+  }
+  .hotel-registration .min-container .hotel-block .photos .row img {
+    border-radius: 20px;
+  }
+  .hotel-registration .min-container .hotel-block .photos.desk {
+    display: none;
+    margin-top: 30px;
+  }
+  .hotel-registration .min-container .hotel-block .hotel-img {
+    width: 100%;
+  }
+  .hotel-registration .min-container .hotel-block .photos .img-thumb-wrap {
+    width: 155px;
+    height: 90px !important;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 460px) {
+  .hotel-registration .min-container .hotel-block .photos .img-thumb-wrap {
+    border-radius: 0px;
+    height: auto;
+  }
+  .hotel-registration .min-container .hotel-block .photos img {
+    max-width: 100%;
+  }
+}
