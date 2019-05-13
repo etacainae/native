@@ -29,7 +29,7 @@ header.blue-header .header-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-left: 60px;
   width: 100%;
   height: 371px;
@@ -63,6 +63,7 @@ header.blue-header .header-top {
   max-width: 450px;
 }
 .block-thanks__wrap .text-wrap h3 {
+  margin: 0;
   color: #0b3ba7;
   font-size: 26px;
   font-weight: 700;
@@ -71,6 +72,7 @@ header.blue-header .header-top {
   letter-spacing: 2.13px;
 }
 .block-thanks__wrap .text-wrap p {
+  margin-top: 40px;
   max-width: 330px;
   color: #3e3e3e;
   font-size: 16px;
@@ -83,7 +85,7 @@ header.blue-header .header-top {
 }
 .redirection-thanks__wrap {
   position: relative;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 165px;
   height: 298px;
   width: 100%;
@@ -119,7 +121,7 @@ header.blue-header .header-top {
   font-weight: 500;
   line-height: 22.8px;
   letter-spacing: 1.11px;
-  margin-top: 30px;
+  margin-top: 12px;
 }
 .redirection-thanks__wrap a {
   margin-top: 35px;
@@ -206,6 +208,10 @@ header.blue-header .header-top {
           box-shadow: 0 15px 81px rgba(1, 1, 1, 0.05);
   border-radius: 20px;
   background-color: #ffffff;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+  /* Firefox 19+ */
+  /* Firefox 18- */
 }
 .review-thanks .review-block:before {
   content: url(../img/thanksTwo/telegramBg.png);
@@ -223,9 +229,8 @@ header.blue-header .header-top {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -236,6 +241,7 @@ header.blue-header .header-top {
 }
 .review-thanks .review-block form input[type=email],
 .review-thanks .review-block form input[type=text] {
+  padding: 0 20px;
   border-width: 1px;
   border-color: #c4c4c4;
   border-style: solid;
@@ -244,12 +250,44 @@ header.blue-header .header-top {
   line-height: 40px;
   background-color: transparent;
   border-radius: 20px;
+  color: #3e3e3e;
   font-size: 14px;
   font-weight: 500;
-  padding: 0 20px;
-  color: #3e3e3e;
+  letter-spacing: 1.05px;
   position: relative;
   z-index: 9;
+}
+.review-thanks .review-block form input::-webkit-input-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form input::-moz-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form input:-moz-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form input:-ms-input-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form textarea::-webkit-textarea-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form textarea::-moz-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form textarea:-moz-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
+}
+.review-thanks .review-block form textarea:-ms-textarea-placeholder {
+  color: #3e3e3e;
+  opacity: 1;
 }
 .review-thanks .review-block form input:nth-child(1) {
   -webkit-box-ordinal-group: 2;
@@ -257,6 +295,7 @@ header.blue-header .header-top {
           order: 1;
 }
 .review-thanks .review-block form input:nth-child(2) {
+  margin-top: 30px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
@@ -265,6 +304,7 @@ header.blue-header .header-top {
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
+  margin-top: 50px;
   background-image: url(../img/send.png);
   background-repeat: no-repeat;
   background-position: 0 center;
@@ -297,7 +337,8 @@ header.blue-header .header-top {
   color: #3e3e3e;
   font-size: 14px;
   font-weight: 500;
-  padding: 15px 25px;
+  letter-spacing: 1.05px;
+  padding: 16px 24px;
 }
 .contacts-help .container {
   padding-bottom: 70px;
@@ -440,6 +481,9 @@ header.blue-header .header-top {
   .redirection-thanks__wrap hr {
     display: none;
   }
+  .review-thanks .review-block {
+    height: auto;
+  }
   .review-thanks .review-block form {
     padding: 26px 26px 26px 30px !important;
     -webkit-box-orient: horizontal;
@@ -451,17 +495,18 @@ header.blue-header .header-top {
   }
   .review-thanks .review-block form input[type=email],
   .review-thanks .review-block form input[type=text] {
-    width: 240px;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    width: 250px;
   }
   .review-thanks .review-block form textarea {
-    width: 300px;
-    height: auto;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    margin-top: 30px;
+    width: 300px;
+    height: 170px;
   }
   .contacts-help .contacts-wrap {
     padding: 20px 50px 20px 40px;

@@ -77,6 +77,7 @@
   letter-spacing: 1.34px;
 }
 .sidebar-registration .btn {
+  cursor: pointer;
   margin-top: 22px;
   display: block;
   text-align: center;
@@ -88,13 +89,16 @@
   background-color: #145ce6;
   background-image: url(../img/hotel-registration/hotelBtnBg.png);
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left center;
   line-height: 50px;
   color: #ffffff !important;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.9px;
+}
+.sidebar-registration .btn:hover {
+  background-color: #0345c1;
 }
 .sidebar-registration .counter {
   margin-top: 30px;
@@ -582,12 +586,38 @@
   font-weight: 500;
   letter-spacing: 1.05px;
 }
-.form-registration .pasport-data__confirmation:before {
-  content: url(../img/info/check.png);
+.form-registration .pasport-data__confirmation label {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+  cursor: pointer;
+}
+.form-registration .pasport-data__confirmation label input[type="checkbox"] {
   margin-right: 20px;
-  display: inline-block;
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #145ce6;
+  border-radius: 50%;
+}
+.form-registration .pasport-data__confirmation label input[type="checkbox"]:checked {
+  background-color: #145ce6;
+}
+.form-registration .pasport-data__confirmation label input[type="checkbox"]:checked:after {
+  content: url(../img/hotel-registration/check-1.png);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
 }
 .form-registration .pasport-data__btn {
   margin-top: 58px;
@@ -599,6 +629,7 @@
           align-items: center;
 }
 .form-registration .pasport-data__btn .btn {
+  cursor: pointer;
   display: block;
   text-align: center;
   min-width: 200px;
@@ -845,7 +876,18 @@
   margin-right: 20px;
 }
 .reviews-registration {
+  position: relative;
   margin-bottom: 0px;
+  background: none;
+}
+.reviews-registration:before {
+  content: url(../img/update/reviews/reviews-fon.png);
+  position: absolute;
+  z-index: -1;
+  top: 280px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .contacts-help-registration .container {
   padding-top: 50px;

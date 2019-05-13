@@ -12,12 +12,14 @@ header.info {
 		font-weight: 800;
 		text-transform: uppercase;
 		letter-spacing: 1.77px;
+		line-height: 80px;
 		.orange {
 			color: #eeba44;
 			font-weight: 800;
 		}
 	}
 	.second {
+		margin-top: 12px;
 		color: #ffffff;
 		font-size: 34px;
 		font-weight: 800;
@@ -26,6 +28,7 @@ header.info {
 		letter-spacing: 3.63px;
 	}
 	hr {
+		margin-top: 14px;
 		width: 294px;
 		height: 3px;
 		background-color: #ffffff;
@@ -37,7 +40,7 @@ header.info {
 	background-position: 50% 300px;
 	position: relative;
 	.container {
-		padding-top: 55px;
+		padding-top: 0;
 	}
 	.min-container {
 		max-width: 100%;
@@ -66,6 +69,7 @@ header.info {
 }
 .sidebar-info {
 	top: 60px;
+	margin-top: 50px;
 	margin-right: auto;
 	margin-bottom: 80px;
 	padding: 20px 0;
@@ -99,7 +103,16 @@ header.info {
 		}
 	}
 }
+.sidebar-registration-active{
+	transition: 0.2s;
+	background-color: #0b3ba7;
+	a {
+		color: #fff;
+
+	}
+}
 #about-info {
+	padding-top: 55px;
 	.min-container {
 		position: relative;
 		margin-right: -15px;
@@ -286,6 +299,7 @@ header.info {
 		}
 	}
 	.slider-block {
+		padding: 0 10px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -327,7 +341,6 @@ header.info {
 		}
 		img {
 			/* Style for "Слой 634" */
-			width: 232px;
 			max-height: 336px;
 			border-top-left-radius: 20px;
 			max-width: 100%;
@@ -402,24 +415,26 @@ header.info {
 			font-weight: 500;
 			line-height: 19.74px;
 			letter-spacing: 0.74px;
+		}	
+		&:hover {
+			background-color: #0038ab;
+			box-shadow: 0 20px 40px rgba(11, 59, 167, 0.4);
+			.title {
+				color: #f9f9fb;
+			}
+			.desc {
+				color: #f9f9fb;
+			}
+			.number {
+				background-color: #ffffff;
+				span {
+					color: #fd9704;
+				}
+			}
 		}
 	}
 	.big-step {
-		background-color: #0038ab;
 		width: 100%;
-		box-shadow: 0 20px 40px rgba(11, 59, 167, 0.4);
-		.title {
-			color: #f9f9fb;
-		}
-		.desc {
-			color: #f9f9fb;
-		}
-		.number {
-			background-color: #ffffff;
-			span {
-				color: #fd9704;
-			}
-		}
 	}
 }
 #how-info {
@@ -615,14 +630,24 @@ header.info {
 	}
 	.baggage {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
 		.template {
+			max-width: 372px;
+			.title {
+				margin-bottom: 16px;
+			}
 			.title:before {
 				content: url(../img/info/reg.png);
+				margin-top: 4px;
 				margin-right: 22px;
 			}
-			.title:nth-child(2):before {
+		}
+		.template:nth-child(2) {
+			padding-left: 10px;
+			.title:before {
 				content: url(../img/info/backpack.png);
+				margin-top: 4px;
 				margin-right: 22px;
 			}
 		}
@@ -858,6 +883,9 @@ header.info {
 	#advantages-info .row {
 		margin: 0;
 	}
+	#sertificate-info .img-wrap img {
+		max-height: 306px !important;
+	}
 }
 @media (min-width: 1200px) {
 	.info-wrap {	
@@ -906,6 +934,12 @@ header.info {
 	}
 	#steps-info .step-item {
 		width: 100%;
+	}
+	#travel-info .baggage {
+		flex-wrap: wrap;
+		.template {
+			max-width: 100%;
+		}
 	}
 }
 @media (max-width:576px) {

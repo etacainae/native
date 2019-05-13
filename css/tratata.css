@@ -13,12 +13,14 @@ header.info .first {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.77px;
+  line-height: 80px;
 }
 header.info .first .orange {
   color: #eeba44;
   font-weight: 800;
 }
 header.info .second {
+  margin-top: 12px;
   color: #ffffff;
   font-size: 34px;
   font-weight: 800;
@@ -27,6 +29,7 @@ header.info .second {
   letter-spacing: 3.63px;
 }
 header.info hr {
+  margin-top: 14px;
   width: 294px;
   height: 3px;
   background-color: #ffffff;
@@ -38,7 +41,7 @@ header.info hr {
   position: relative;
 }
 .info-wrap .container {
-  padding-top: 55px;
+  padding-top: 0;
 }
 .info-wrap .min-container {
   max-width: 100%;
@@ -67,6 +70,7 @@ header.info hr {
 }
 .sidebar-info {
   top: 60px;
+  margin-top: 50px;
   margin-right: auto;
   margin-bottom: 80px;
   padding: 20px 0;
@@ -100,6 +104,17 @@ header.info hr {
 .sidebar-info a:hover {
   background-color: #0b3ba7;
   color: #fff;
+}
+.sidebar-registration-active {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: #0b3ba7;
+}
+.sidebar-registration-active a {
+  color: #fff;
+}
+#about-info {
+  padding-top: 55px;
 }
 #about-info .min-container {
   position: relative;
@@ -316,6 +331,7 @@ header.info hr {
           box-shadow: 6px 10px 13px rgba(253, 151, 4, 0.25);
 }
 #sertificate-info .slider-block {
+  padding: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,7 +378,6 @@ header.info hr {
 }
 #sertificate-info .img-wrap img {
   /* Style for "Слой 634" */
-  width: 232px;
   max-height: 336px;
   border-top-left-radius: 20px;
   max-width: 100%;
@@ -453,23 +468,25 @@ header.info hr {
   line-height: 19.74px;
   letter-spacing: 0.74px;
 }
-#steps-info .big-step {
+#steps-info .step-item:hover {
   background-color: #0038ab;
-  width: 100%;
   -webkit-box-shadow: 0 20px 40px rgba(11, 59, 167, 0.4);
           box-shadow: 0 20px 40px rgba(11, 59, 167, 0.4);
 }
-#steps-info .big-step .title {
+#steps-info .step-item:hover .title {
   color: #f9f9fb;
 }
-#steps-info .big-step .desc {
+#steps-info .step-item:hover .desc {
   color: #f9f9fb;
 }
-#steps-info .big-step .number {
+#steps-info .step-item:hover .number {
   background-color: #ffffff;
 }
-#steps-info .big-step .number span {
+#steps-info .step-item:hover .number span {
   color: #fd9704;
+}
+#steps-info .big-step {
+  width: 100%;
 }
 #how-info {
   padding-top: 90px;
@@ -683,15 +700,31 @@ header.info hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#travel-info .baggage .template {
+  max-width: 372px;
+}
+#travel-info .baggage .template .title {
+  margin-bottom: 16px;
 }
 #travel-info .baggage .template .title:before {
   content: url(../img/info/reg.png);
+  margin-top: 4px;
   margin-right: 22px;
 }
-#travel-info .baggage .template .title:nth-child(2):before {
+#travel-info .baggage .template:nth-child(2) {
+  padding-left: 10px;
+}
+#travel-info .baggage .template:nth-child(2) .title:before {
   content: url(../img/info/backpack.png);
+  margin-top: 4px;
   margin-right: 22px;
 }
 #travel-info .template.registration span {
@@ -938,6 +971,9 @@ header.info hr {
   #advantages-info .row {
     margin: 0;
   }
+  #sertificate-info .img-wrap img {
+    max-height: 306px !important;
+  }
 }
 @media (min-width: 1200px) {
   .info-wrap .container {
@@ -987,6 +1023,13 @@ header.info hr {
   }
   #steps-info .step-item {
     width: 100%;
+  }
+  #travel-info .baggage {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #travel-info .baggage .template {
+    max-width: 100%;
   }
 }
 @media (max-width: 576px) {
